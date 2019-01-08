@@ -5,4 +5,4 @@ const notesScema = mongoose.Schema({
     info : { type : String },
     due : { type : Date , default : Date.now()}
 })
-module.exports = mongoose.model('Notes',notesScema);
+module.exports = mongoose.model('Note',notesScema);

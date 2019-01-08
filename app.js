@@ -7,7 +7,7 @@ const mongoLink = "'mongodb://localhost:27017/testdb'"
 const userRoute = require("./routes/users")
 const notesRoute = require("./routes/notes")
 const indexRoute = require("./routes/index")
-//Use Body Parser to expose reqeuest to req.body
+//Use Body Parser to expose request to req.body
 app.use(bodyParser.json());
 
 app.use(indexRoute)
